@@ -3,49 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Four card feature section</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet"> 
+  <title>Frontend Mentor | 3-column preview card component</title>
 </head>
 <body>
-  <main class="main">
-    <header class="header">
-      <h2 class="header__subtitle">Reliable, efficient delivery</h2>
-      <h1 class="header__title">Powered by Technology</h1>
-      <p class="header__description">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
-    </header>
-    <div class="container-card">
-      <div class="rail-card">
-        <div class="card">
-          <h2 class="card__title">Supervisor</h2>
-          <p class="card__description">Monitors activity to identify project roadblocks</p>
-          <img src="images/icon-supervisor.svg" alt="An eye" class="card__image">
-        </div>
-      </div>
-      <div class="rail-card">
-        <div class="card">
-          <h2 class="card__title">Team Builder</h2>
-          <p class="card__description">Scans our talent network to create the optimal team for your project</p>
-          <img src="images/icon-team-builder.svg" alt="Building process of a website" class="card__image">
-        </div>
-        <div class="card">
-          <h2 class="card__title">Karma</h2>
-          <p class="card__description">Regularly evaluates our talent to ensure quality</p>
-          <img src="images/icon-karma.svg" alt="A lightbulb" class="card__image">
-        </div>
-      </div>
-      <div class="rail-card">
-        <div class="card">
-          <h2 class="card__title">Calculator</h2>
-          <p class="card__description">Uses data from past projects to provide better delivery estimates</p>
-          <img src="images/icon-calculator.svg" alt="A computer" class="card__image">
-        </div>
-      </div>
+  <main class="container">
+    <div class="card card--orange">
+      <img src="images/icon-sedans.svg" alt="An icon of a Sedan" class="card__icon">
+      <h1 class="card__tittle">Sedans</h1>
+      <p class="card__paragraph">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+  or on your next road trip.</p>
+      <a href="#" class="card__button card__button--orange">Learn More</a>
+    </div>
+    <div class="card card--blue">
+      <img src="images/icon-suvs.svg" alt="An icon of a SUV" class="card__icon">
+      <h1 class="card__tittle">SUVS</h1>
+      <p class="card__paragraph">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+  and off-road adventures.</p>
+      <a href="#" class="card__button card__button--blue">Learn More</a>
+    </div>
+    <div class="card card--dark-blue">
+      <img src="images/icon-luxury.svg" alt="An icon of a Luxury" class="card__icon">
+      <h1 class="card__tittle">Luxury</h1>
+      <p class="card__paragraph">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+  rental and arrive in style.</p>
+      <a href="#" class="card__button card__button--dark-blue">Learn More</a>
     </div>
   </main>
   <footer class="attribution">
     <p class="attribution__text">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="attribution__link">Frontend Mentor</a>.</p>
-    <p class="attribution__text">Coded by <a href="#" class="attribution__link">Your Name Here</a>.</p>
+    <p class="attribution__text">Coded by <a href="#" class="attribution__link">Emile Avoscan</a>.</p>
   </footer>
 </body>
 </html>
