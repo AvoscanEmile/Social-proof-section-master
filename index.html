@@ -1,91 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet"> 
-    <title>Frontend Mentor | Social proof section</title>
-  </head>
-  <body>
-    <main class="main">
-      <div class="main__description-container">
-        <div class="main__info-box">
-          <h1 class="main__tittle">10,000+ of our users love our products.</h1>
-          <p class="main__description">We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
-        </div>
-        <div class="main__ratings">
-          <div class="main__ratings-box main__ratings-box--first">
-            <div class="main__stars-container">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-            </div>
-            <p class="main__rating-text">Rated 5 Stars in Reviews</p>
-          </div>
-          <div class="main__ratings-box main__ratings-box--second">
-            <div class="main__stars-container">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-            </div>
-            <p class="main__rating-text">Rated 5 Stars in Report Guru</p>
-          </div>
-          <div class="main__ratings-box main__ratings-box--third">
-            <div class="main__stars-container">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-              <img src="images/icon-star.svg" alt="A yellow star" class="main__star">
-            </div>
-            <p class="main__rating-text">Rated 5 Stars in BestTech</p>
-          </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Four card feature section</title>
+</head>
+<body>
+  <main class="main">
+    <header class="header">
+      <h2 class="header__subtitle">Reliable, efficient delivery</h2>
+      <h1 class="header__title">Powered by Technology</h1>
+      <p class="header__description">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+    </header>
+    <div class="container-card">
+      <div class="rail-card">
+        <div class="card">
+          <h2 class="card__title">Supervisor</h2>
+          <p class="card__description">Monitors activity to identify project roadblocks</p>
+          <img src="images/icon-supervisor.svg" alt="An eye" class="card__image">
         </div>
       </div>
-      <div class="main__customer-card-container">
-        <div class="main__customer-card main__customer-card--first">
-          <div class="main__name-container">
-            <img src="images/image-colton.jpg" alt="" class="main__customer-image">
-            <div class="main__customer-info-container">
-              <p class="main__customer-name">Colton Smith</p>
-              <p class="main__customer-tag">Verified Buyer</p>
-            </div>
-          </div>
-          <p class="main__customer-quote">"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"</p>
+      <div class="rail-card">
+        <div class="card">
+          <h2 class="card__title">Team Builder</h2>
+          <p class="card__description">Scans our talent network to create the optimal team for your project</p>
+          <img src="images/icon-team-builder.svg" alt="Building process of a website" class="card__image">
         </div>
-        <div class="main__customer-card main__customer-card--second">
-          <div class="main__name-container">
-            <img src="images/image-irene.jpg" alt="" class="main__customer-image">
-            <div class="main__customer-info-container">
-              <p class="main__customer-name">Irene Roberts</p>
-              <p class="main__customer-tag">Verified Buyer</p>
-            </div>
-          </div>
-          <p class="main__customer-quote">"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
-        </div>
-        <div class="main__customer-card main__customer-card--third">
-          <div class="main__name-container">
-            <img src="images/image-anne.jpg" alt="" class="main__customer-image">
-            <div class="main__customer-info-container">
-              <p class="main__customer-name">Anne Wallace</p>
-              <p class="main__customer-tag">Verified Buyer</p>
-            </div>
-          </div>
-          <p class="main__customer-quote">"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>
+        <div class="card">
+          <h2 class="card__title">Karma</h2>
+          <p class="card__description">Regularly evaluates our talent to ensure quality</p>
+          <img src="images/icon-karma.svg" alt="A lightbulb" class="card__image">
         </div>
       </div>
-    </main>
-    <footer class="attribution">
-      <p class="attribution__text">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="attribution__link">Frontend Mentor</a></p>
-      <p class="attribution__text">Coded by <a href="#" class="attribution__link">Emile Avoscan</a>.</p>
-    </footer>
-  </body>
+      <div class="rail-card">
+        <div class="card">
+          <h2 class="card__title">Calculator</h2>
+          <p class="card__description">Uses data from past projects to provide better delivery estimates</p>
+          <img src="images/icon-calculator.svg" alt="A computer" class="card__image">
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="attribution">
+    <p class="attribution__text">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="attribution__link">Frontend Mentor</a>.</p>
+    <p class="attribution__text">Coded by <a href="#" class="attribution__link">Your Name Here</a>.</p>
+  </footer>
+</body>
 </html>
