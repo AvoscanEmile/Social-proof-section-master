@@ -1,4 +1,4 @@
-# 3-column preview card component
+# Social-proof-section-master
 - **This is my fifth Front-End Mentor project. If you want to see it live you can do it here: https://avoscanemile.github.io/Social-proof-section-master/**
 
 - **You can see the desktop and the mobile design on the /design folder of this project.**
